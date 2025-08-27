@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "build-with-react-tailwind",
+    "type": "blog",
+    "title": "How I built this with React + Tailwind",
+    "excerpt": "A quick walkthrough of the stack, routing, dark mode, and deployment tips.",
+    "date": "2025-08-25",
+    "tags": [
+      "react",
+      "tailwind",
+      "vite"
+    ],
+    "cover": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+    "content": "\n## Stack\n- **React + Vite** for a fast DX\n- **TailwindCSS** with `darkMode: 'class'`\n- **React Router v6** for pages\n\n## Features\n- Search & filter on the homepage\n- Markdown rendering on detail pages\n- Dark mode with localStorage persistence\n\n## Deployment\nYou can deploy to **Vercel** or **Netlify**. Build with:\n```bash\nnpm run build\n```\nThen upload the `dist` folder, or connect your repo directly.\n"
+  },
+  {
+    "slug": "smart-library-project",
+    "type": "project",
+    "title": "Smart Library Management System",
+    "excerpt": "A Java-based library system with issue/return and analytics dashboards.",
+    "date": "2025-08-20",
+    "tags": [
+      "project",
+      "java",
+      "spring"
+    ],
+    "cover": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
+    "content": "\n### Overview\nThis project manages books, members, and transactions.\n\n### Tech\n- Backend: **Spring Boot**\n- Frontend: **HTML/CSS**\n- Database: **MySQL**\n\n### Highlights\n- Role-based access\n- Overdue reminders\n- Charts for usage\n"
+  },
+  {
+    "slug": "roommate-allocation-system",
+    "type": "project",
+    "title": "Roommate Allocation System",
+    "excerpt": "Allocate 3 students per room with smart matching and preferences.",
+    "date": "2025-08-22",
+    "tags": [
+      "allocation",
+      "algorithm",
+      "webapp"
+    ],
+    "cover": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop",
+    "content": "\n### Problem\nWe have 150 rooms and need to assign students fairly.\n\n### Approach\n- Greedy matching with constraints\n- Conflict resolution rules\n- Export reports\n\n### Future Work\n- Preferences & scores\n- Admin UI\n"
+  }
+]
